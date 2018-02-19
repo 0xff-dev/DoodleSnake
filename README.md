@@ -1,17 +1,16 @@
 # DoodleSnake
-This is a simple game, doolde snake, if you wang to play it please install pygame.
+>This is a simple game, doolde snake, if you wang to play it please install pygame.
 
-'''install pygame'''
-sudo apt-get install mercurial
+    sudo apt-get install mercurial
 
-hg clone https://bitbucket.org/pygame/pygame
+    hg clone https://bitbucket.org/pygame/pygame
 
-cd pygame
+    cd pygame
 
-sudo apt-get install python3-dev python3-numpy libsdl-dev libsdl-image1.2-dev \
-libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev libportmidi-dev \
-libavformat-dev libswscale-dev libjpeg-dev libfreetype6-dev
+    sudo apt-get install python3-dev python3-numpy libsdl-dev libsdl-image1.2-dev \
+    libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev libportmidi-dev \
+    libavformat-dev libswscale-dev libjpeg-dev libfreetype6-dev
 
-python3 setup.py build
+    python3 setup.py build
 
-sudo python3 setup.py install
+    sudo python3 setup.py install
